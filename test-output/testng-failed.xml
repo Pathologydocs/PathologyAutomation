@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [pathology]">
+  <parameter name="browser" value="chrome"/>
+  <test name="EndToEnd(failed)">
+    <classes>
+      <class name="test.FacilityCreationTest">
+        <methods>
+          <include name="QuitDriver"/>
+          <include name="InitializeDriver"/>
+          <include name="SetUp"/>
+          <include name="shouldAbleToCreateFacility"/>
+        </methods>
+      </class> <!-- test.FacilityCreationTest -->
+    </classes>
+  </test> <!-- EndToEnd(failed) -->
+</suite> <!-- Failed suite [pathology] -->

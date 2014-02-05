@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="pathology" verbose="1">
+	<parameter name="browser" value="chrome" />
+	<test name="EndToEnd">
+		<classes>
+			<!-- <class name="test.LoginTest" /> -->
+			<class name="test.FacilityCreationTest"></class>
+		</classes>
+	</test>
+</suite>
